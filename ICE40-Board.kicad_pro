@@ -378,7 +378,14 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "+1V2",
+          "+2V5",
+          "+3V3",
+          "+5V",
+          "VBUS",
+          "VDD"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
@@ -396,7 +403,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB2.0",
-        "nets": [],
+        "nets": [
+          "D+",
+          "D-"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -414,7 +424,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "ICE40-Board.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
