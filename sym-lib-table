@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "W25X20CLSNIG")(type "Legacy")(uri "${KIPRJMOD}/components/symbols/W25X20CLSNIG.lib")(options "")(descr ""))
+  (lib (name "SIT2001BC-S2-33E-25.0")(type "Legacy")(uri "${KIPRJMOD}/components/symbols/SIT2001BC-S2-33E-25.0.lib")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "W25X20CLSNIG")(type "KiCad")(uri "${KIPRJMOD}/components/footprints/W25X20CLSNIG.pretty")(options "")(descr ""))
+  (lib (name "SIT2001BC-S2-33E-25.0")(type "KiCad")(uri "${KIPRJMOD}/components/footprints/SIT2001BC-S2-33E-25.0.pretty")(options "")(descr ""))
+)
