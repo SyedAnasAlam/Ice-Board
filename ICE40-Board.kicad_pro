@@ -383,6 +383,11 @@
           "+2V5",
           "+3V3",
           "+5V",
+          "/GND_PLL1",
+          "/GND_PLL2",
+          "/VCC_PLL1",
+          "/VCC_PLL2",
+          "GND",
           "VBUS",
           "VDD"
         ],

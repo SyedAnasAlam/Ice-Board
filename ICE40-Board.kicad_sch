@@ -3460,7 +3460,6 @@
     )
   )
 
-
   (junction (at 73.66 148.59) (diameter 0) (color 0 0 0 0)
     (uuid 075cac76-e418-4f93-a881-ee3b6a1c33db)
   )
@@ -6235,7 +6234,7 @@
     (uuid 1c76aae3-bd94-4b78-a171-6b6542da96a4)
     (property "Reference" "U4" (id 0) (at 29.21 30.48 0))
     (property "Value" "Barrel_Jack" (id 1) (at 29.21 32.385 0))
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (id 2) (at 30.48 39.116 0)
+    (property "Footprint" "CUI_PJ-007:CUI_PJ-007" (id 2) (at 30.48 39.116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 39.116 0)
@@ -6686,7 +6685,7 @@
     (property "Value" "4.7uF" (id 1) (at 295.275 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 293.0652 40.64 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (id 2) (at 293.0652 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 292.1 36.83 0)
@@ -7611,7 +7610,7 @@
     (property "Value" "4.7uF" (id 1) (at 314.96 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 312.7502 69.85 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (id 2) (at 312.7502 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 311.785 66.04 0)
@@ -7834,7 +7833,7 @@
     (property "Value" "4.7uF" (id 1) (at 371.475 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 369.2652 40.64 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (id 2) (at 369.2652 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 368.3 36.83 0)
@@ -7888,7 +7887,7 @@
     (property "Value" "4.7uF" (id 1) (at 343.535 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 341.3252 69.85 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (id 2) (at 341.3252 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 340.36 66.04 0)
@@ -7990,7 +7989,7 @@
     (property "Value" "4.7uF" (id 1) (at 333.375 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 331.1652 40.64 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (id 2) (at 331.1652 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 330.2 36.83 0)
@@ -9429,19 +9428,19 @@
       (reference "#PWR065") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/3e44de97-8dad-450f-9a3b-be7c19f02009"
-      (reference "C1") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C1") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
     )
     (path "/632e1a1c-c069-4715-ac2e-23038c43539c"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a23ecd90-bb9b-4fd2-a42b-7100bfc791b5"
-      (reference "C3") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C3") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
     )
     (path "/765042ad-8833-41d5-b953-c476cc4bd479"
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/94765dbf-ec5f-4465-9753-2016eccc63b1"
-      (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
     )
     (path "/8b5502ad-202f-4eae-95db-52d7aca717d1"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9477,7 +9476,7 @@
       (reference "C16") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/86a66eb8-dea9-4995-92f8-e6370f3aac03"
-      (reference "C17") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C17") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
     )
     (path "/a3732dc0-083c-449e-a00e-18270d4346f1"
       (reference "C18") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9546,7 +9545,7 @@
       (reference "C39") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/989450e4-1c8d-4d15-ae3a-54a5520bb694"
-      (reference "C40") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C40") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
     )
     (path "/b833d3b5-3f9d-4954-a2eb-59a1dd4179f7"
       (reference "C41") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9666,7 +9665,7 @@
       (reference "U3") (unit 1) (value "ADP1712AUJZ-1.2") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/1c76aae3-bd94-4b78-a171-6b6542da96a4"
-      (reference "U4") (unit 1) (value "Barrel_Jack") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+      (reference "U4") (unit 1) (value "Barrel_Jack") (footprint "CUI_PJ-007:CUI_PJ-007")
     )
     (path "/7a6b9cdf-f13b-4329-9d9a-e43f6041b320"
       (reference "U5") (unit 1) (value "W25X20CLSNIG") (footprint "W25X20CLSNIG:W25X20CLSNIG")
