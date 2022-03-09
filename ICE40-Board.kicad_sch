@@ -5493,6 +5493,7 @@
     )
   )
 
+
   (junction (at 143.51 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 075cac76-e418-4f93-a881-ee3b6a1c33db)
   )
@@ -8043,7 +8044,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 702b7e3f-0273-4c9e-97a1-77656fb9d602)
   )
-  (label "MISO" (at 179.07 113.03 0)
+  (label "MOSI_EXT" (at 179.07 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72accdcc-7fd1-47b0-8c89-8ed938cb05d4)
   )
@@ -8147,7 +8148,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a338e6b6-9386-47d9-a0c7-ab04d834ff43)
   )
-  (label "MISO_EXT" (at 179.07 110.49 0)
+  (label "MISO" (at 179.07 110.49 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a34a9422-0cf2-4eac-979d-3506c3cb83cf)
   )
@@ -9150,7 +9151,7 @@
     (property "Value" "W25X20CLSNIG" (id 1) (at 270.51 222.25 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "W25X20CLSNIG:W25X20CLSNIG" (id 2) (at 229.87 211.836 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 229.87 211.836 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.winbond.com/resource-files/w25x20cl_revf%2020150806.pdf" (id 3) (at 250.19 208.28 0)
@@ -9796,7 +9797,7 @@
   (symbol (lib_id "power:GND") (at 218.44 144.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6914c59d-3754-4af1-9c34-a108c9a97289)
-    (property "Reference" "#PWR?" (id 0) (at 218.44 151.13 0)
+    (property "Reference" "#PWR0102" (id 0) (at 218.44 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 218.44 148.59 0))
@@ -10004,7 +10005,7 @@
     (property "Value" "W25X20CLSNIG" (id 1) (at 271.78 198.12 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "W25X20CLSNIG:W25X20CLSNIG" (id 2) (at 271.78 179.324 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 271.78 179.324 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.winbond.com/resource-files/w25x20cl_revf%2020150806.pdf" (id 3) (at 251.46 182.88 0)
@@ -10121,7 +10122,7 @@
     (property "Value" "SIT2001BI-S2-33E-25.000000G" (id 1) (at 270.51 250.19 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SIT2001BC-S2-33E-25.0:SIT2001BC-S2-33E-25.0" (id 2) (at 270.51 228.854 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (id 2) (at 270.51 228.854 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.sitime.com/datasheet/SiT2001" (id 3) (at 290.83 234.95 0)
@@ -11533,7 +11534,7 @@
   (symbol (lib_id "power:+3V3") (at 261.62 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f3127aa8-4fa0-47de-9985-06be44bbdf06)
-    (property "Reference" "#PWR?" (id 0) (at 261.62 149.86 0)
+    (property "Reference" "#PWR0101" (id 0) (at 261.62 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 261.62 142.24 0))
@@ -11962,11 +11963,11 @@
     (path "/f7a72f02-ad1d-451e-84ea-c8401ea6a597"
       (reference "#PWR082") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6914c59d-3754-4af1-9c34-a108c9a97289"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f3127aa8-4fa0-47de-9985-06be44bbdf06"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6914c59d-3754-4af1-9c34-a108c9a97289"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/6ee370d5-fdd1-4fb2-bb9a-7df7bde93257"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -12188,7 +12189,7 @@
       (reference "U4") (unit 1) (value "Barrel_Jack") (footprint "CUI_PJ-007:CUI_PJ-007")
     )
     (path "/7a6b9cdf-f13b-4329-9d9a-e43f6041b320"
-      (reference "U5") (unit 1) (value "W25X20CLSNIG") (footprint "W25X20CLSNIG:W25X20CLSNIG")
+      (reference "U5") (unit 1) (value "W25X20CLSNIG") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/0001fea5-902d-48c7-836e-fc3524aaf22c"
       (reference "U6") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
@@ -12209,10 +12210,10 @@
       (reference "U7") (unit 5) (value "ICE40HX4K-TQ144") (footprint "Package_QFP:TQFP-144_20x20mm_P0.5mm")
     )
     (path "/3e440e2a-3697-4991-a194-924ce05398cf"
-      (reference "U8") (unit 1) (value "W25X20CLSNIG") (footprint "W25X20CLSNIG:W25X20CLSNIG")
+      (reference "U8") (unit 1) (value "W25X20CLSNIG") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/850123b0-9e72-4333-94a9-4aa70ced4899"
-      (reference "U9") (unit 1) (value "SIT2001BI-S2-33E-25.000000G") (footprint "SIT2001BC-S2-33E-25.0:SIT2001BC-S2-33E-25.0")
+      (reference "U9") (unit 1) (value "SIT2001BI-S2-33E-25.000000G") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/486f1dc7-2867-4a76-8284-3d08b807ec71"
       (reference "U10") (unit 1) (value "FT4222HQ") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
