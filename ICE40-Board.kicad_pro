@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|20701000|52439000|586e3c91-a343-4d50-b017-0ae0da71af9d|1ab0a907-07f3-4e99-9f2d-0c22a89e024d",
+        "silk_over_copper|20701000|61379000|586e3c91-a343-4d50-b017-0ae0da71af9d|7a0cea58-b95d-4340-ac8b-48be278a9d04"
+      ],
       "meta": {
         "version": 2
       },
@@ -95,7 +98,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
