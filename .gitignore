@@ -2,3 +2,5 @@ ICE40-Board-backups/
 ICE40-Board.kicad_prl
 fp-info-cache
 *.net
+*.zip
+ICE40-Board-Gerbers/
