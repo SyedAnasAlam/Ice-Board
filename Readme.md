@@ -2,7 +2,7 @@
 *Work in progress*  
 This is a 4-layer FPGA PCB which is used for [RV5-MCU](https://github.com/SyedAnasAlam/RV5-MCU). The goal is to use this FPGA PCB as a microcontroller development board. 
 ## Parts
-- ICE40HX4K
+- Lattice ICE40HX4K FPGA
 - 2 x W25X20CL 2Mbit SPI Flash (104MHz)
     - 1x For FPGA configuration bitstream (FPGA flash)
     - 1x for MCU program memory (MCU flash)
