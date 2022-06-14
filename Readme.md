@@ -1,13 +1,11 @@
-# ICE40-Board 
-This is a 4-layer FPGA PCB which is used for [RV5-MCU](https://github.com/SyedAnasAlam/RV5-MCU). The goal is to use this FPGA PCB as a microcontroller development board. 
+# Ice Board 
+Ice Board is a FPGA development board containing the ICE40HX4k from Lattice. 
 ## Parts
 - Lattice ICE40HX4K FPGA
-- 2 x W25X20CL 2Mbit SPI Flash (104MHz)
-    - 1x For FPGA configuration bitstream (FPGA flash)
-    - 1x for MCU program memory (MCU flash)
+- W25X20CL 2Mbit SPI Flash for storing configuration bitstream (104MHz)
 - USB-C for programming both FPGA and MCU flash
     - Also has option for programming the flash with a external device though breakout headers
-- Select between powering board from USB or barrel jack
+- Requires 5V supply which can be supplied from either USB port or barrel jack (selectable with a header)
 - FTDI4222 for USB to SPI conversion
 - 64 x IO pins  
   
